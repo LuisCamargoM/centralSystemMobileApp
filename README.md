@@ -3,19 +3,19 @@
 ## Configuraçao de Ambiente 
 
 ### Installing NodeJS and yarn
-    1) Primeiro baixe o [node](https://nodejs.org/en/download/) e instale na sua maquina
-    2) Em seguida, digite o seguinte comando no terminal, dentro da pasta raiz do projeto: brew install yarn
+	    1) Primeiro baixe o [node](https://nodejs.org/en/download/) e instale na sua maquina
+	    2) Em seguida, digite o seguinte comando no terminal, dentro da pasta raiz do projeto:  	brew install yarn
 
 ### Installing Sequelize 
-	1) Na pasta raiz do projeto rode o comando:yarn add --save sequelize
+		1) Na pasta raiz do projeto rode o comando:yarn add --save sequelize
 
 ### Installing Mysql 
-	2) Na pasta raiz do projeto rode o comando: yarn add msql2
+		1) Na pasta raiz do projeto rode o comando: yarn add msql2
 
 ### Creating Database Tabels
-	1) No arquivo database.js, configure a conexao com seu banco de dados (PostGres ou Mysql)
-	2) Em seguida, dentro da pasta raiz rode o seguinte comando: yarn sequelize db:migrate
+		1) No arquivo database.js, configure a conexao com seu banco de dados (PostGres ou Mysql)
+		2) Em seguida, dentro da pasta raiz rode o seguinte comando: yarn sequelize db:migrate
 
 ## Steps to run the server
-	1) Na pasta da raiz do projeto, digite o seguinte comando: yarn dev
+		1) Na pasta da raiz do projeto, digite o seguinte comando: yarn dev
 
