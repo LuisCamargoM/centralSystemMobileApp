@@ -1,5 +1,5 @@
-## Steps to run Back-End
+## Steps to run the server
 
-Access the project directory >> orbitta_backend << in terminal window and run the following command:
+Access the project directory >> Central System Mobile App << in terminal window and run the following command:
 
 ### `yarn dev`
