@@ -7,13 +7,13 @@
 	    2) Em seguida, digite o seguinte comando no terminal, dentro da pasta raiz do projeto:  	brew install yarn
 
 ### Installing Sequelize 
-		1) Na pasta raiz do projeto rode o comando:yarn add --save sequelize
+		1) Na pasta raiz do projeto rode o comando:yarn add sequelize
 
 ### Installing Mysql 
-		1) Na pasta raiz do projeto rode o comando: yarn add msql2
+		1) Na pasta raiz do projeto rode o comando: yarn add mysql2
 
 ### Creating Database Tabels
-		1) No arquivo database.js, configure a conexao com seu banco de dados (PostGres ou Mysql)
+		1) No arquivo src/config/database.js, configure a conexao com seu banco de dados (PostGres ou Mysql)
 		2) Em seguida, dentro da pasta raiz rode o seguinte comando: yarn sequelize db:migrate
 
 ## Steps to run the server
